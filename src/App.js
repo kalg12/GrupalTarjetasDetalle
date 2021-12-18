@@ -2,6 +2,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import "./style.css";
 import { Navbar } from './components/Navbar';
 import { Nosotros } from './components/Nosotros';
+import { Peliculas } from './components/Peliculas';
+import { Inicio } from './components/Inicio';
+import { DetallePelicula } from './components/DetallePelicula';
 
 
 function App() {
@@ -13,6 +16,16 @@ function App() {
        <Switch>
        <Route path='/nosotros'>
           <Nosotros />
+      </Route>
+       <Route path='/peliculas'>
+          <Peliculas />
+      </Route>
+
+      <Route path="/detallepelicula/:id">
+        <DetallePelicula />
+      </Route>
+      <Route path="/">
+        <Inicio />
       </Route>
       
        </Switch>

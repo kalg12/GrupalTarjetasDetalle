@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Producto = () => {
+export const Inicio = () => {
     return (
         <div>
-            
+            Inicio
         </div>
     )
 }
