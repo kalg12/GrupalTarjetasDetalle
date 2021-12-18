@@ -1,0 +1,20 @@
+.logo_tamaño {
+    height: 30px;
+    width: 80px;
+ }
+
+.nosotros__img {
+    height: 400px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.container__nosotros {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container_article {
+    padding: 100px 50px 100px 80px;
+}
