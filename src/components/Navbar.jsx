@@ -6,7 +6,7 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <ul className="navbar-brand" to='/'>
-          <img src='https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png' className="logo_tamaño"></img>
+          <img src='https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png' className="logo_tamaño" alt="Imagen de inicio"></img>
           </ul>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
