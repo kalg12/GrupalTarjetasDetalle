@@ -21,7 +21,7 @@ function App() {
           <Peliculas />
       </Route>
 
-      <Route path="/detallepelicula/:id">
+      <Route path="/detallepelicula/:id/:nombre/:desc/:img">
         <DetallePelicula />
       </Route>
       <Route path="/">
